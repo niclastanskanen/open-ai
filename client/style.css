@@ -11,11 +11,11 @@ body {
   background: #343541;
 }
 
-
 #app {
   width: 100vw;
   height: 100vh;
   background: #343541;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,13 @@ body {
   scroll-behavior: smooth;
 }
 
+/* hides scrollbar */
 #chat_container::-webkit-scrollbar {
+  display: none;
+}
+
+/* hides scrollbar */
+.message::-webkit-scrollbar {
   display: none;
 }
 
