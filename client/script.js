@@ -68,4 +68,14 @@ const handleSubmit = async (e) => {
   chatContainer.innerHTML += chatStripe(false, data.get('prompt'));
 
   form.reset();
+
+  // bot's chatstripe
+  const uniqueId = generateUniqueId();
+  chatContainer.innerHTML += chatStripe(true, " ", uniqueId);
+
+  chatContainer.scrollTop = chatContainer.scrollHeight;
+
+  const messageDiv = document.getElementById(uniqueId);
+
+  loader(messageDiv);
 }
