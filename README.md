@@ -1,5 +1,17 @@
 # Open Ai
 
+### Communication with advanced GPT3 model API.
+
+## -> [Live Site](https://open-ai-psi.vercel.app/) <- :computer:
+
+## -> [Live Server](https://open-ai-ttfo.onrender.com/) <- :file_folder:
+
+[Error Code 429 - Rate limit reached for requests](https://help.openai.com/en/articles/6891829-error-code-429-rate-limit-reached-for-requests)
+
+![React](https://skillicons.dev/icons?i=js,vite,nodejs)
+
+![OpenAI](https://a11ybadges.com/badge?logo=openai)
+
 ## Table of Contents
 
 - [User Experience (UX)](#user-experience-ux)
@@ -8,6 +20,7 @@
     - [Typography](#typography)
 - [Features](#features)
   - [Home Page](#home-page)
+  - [Server Page](#server-page)
 - [Testing](#testing)
   - [Bugs](#bugs)
     - [Fixed Bugs](#fixed-bugs)
@@ -25,49 +38,90 @@
 
 ## User Experience UX
 
-
 ### Color-scheme
-
+<img src ="./docs/images/color-scheme.png">
 
 ### Typography
 
+[Alegreya Sans, sans-serif](https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700;800;900&display=swap)
 
 <hr>
 
 ## Features
 
-
 ### Home Page
+
+<img src="./docs/images/homapage.png">
+
+### Server Page
+
+<img src="./docs/images/server.png">
 
 <hr>
 
 ## Testing
 
-### Bugs
+## Bugs
 ### Fixed Bugs
 
+#### Error code 5000
 <img src="./docs/images/bug-port-5000.png">
 <img src="./docs/images/bug-port-5000-solution.png">
 <img src="./docs/images/bug-port-5000-fix.png">
 
 
+#### Typo
+OPENAI_API_KEY instead of OPEN_API_KEY
+<img src="./docs/images/bug-typo-api.png">
+<hr>
+
+#### Typo
+text.charAt instead of chartAt
+
+<img src="./docs/images/bug-typo.png">
+
+
 
 ### Remaining Bugs
-Error Code 429 - Rate limit reached for requests
-https://help.openai.com/en/articles/6891829-error-code-429-rate-limit-reached-for-requests#:~:text=This%20error%20message%20indicates%20that,the%20number%20of%20requests%20allowed.
+[Error Code 429 - Rate limit reached for requests](https://help.openai.com/en/articles/6891829-error-code-429-rate-limit-reached-for-requests)
+
+This error message indicates that you have hit your assigned rate limit for the API. This means that you have submitted too many tokens or requests in a short period of time and have exceeded the number of requests allowed. This could happen for several reasons, such as:
+
+<img src="./docs/images/bug-error-429-homepage.png">
+
+<img src="./docs/images/bug-error-429-response.png">
 
 <hr>
 
 ## Technologies Used
 
 ### Languages and Frameworks Used
+HTML
+
+CSS
+
+JavaScript - https://www.javascript.com/
+
+Vite - https://vitejs.dev/
+
+Node.js https://nodejs.org/
 
 
 ### Node Packages / Dependencies Used
-
+- [Vite](https://vitejs.dev/guide/)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
+- [Express](https://www.npmjs.com/package/express)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [OpenAI](https://www.npmjs.com/package/openai)
 
 ### Programs and Tools Used
-
+- [Open Ai](https://openai.com/)
+- [Render](https://render.com/)
+- [Vercel](https://vercel.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
 
 <hr>
 
@@ -120,8 +174,6 @@ repository by using the following steps...
 1. From the terminal run the command `npm install` to install all project dependencies.
 1. Run the command `npm start` to run the application.
 
-### Deploying with Netlify
-
 <hr>
 
 ## Credits
@@ -129,5 +181,5 @@ repository by using the following steps...
 
 ### Acknowledgments
 
-Adrian for great support and mentor.
+Adrian for a great support and mentor.
 
