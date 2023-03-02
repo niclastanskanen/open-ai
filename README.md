@@ -53,7 +53,8 @@
 
 
 ### Remaining Bugs
-
+Error Code 429 - Rate limit reached for requests
+https://help.openai.com/en/articles/6891829-error-code-429-rate-limit-reached-for-requests#:~:text=This%20error%20message%20indicates%20that,the%20number%20of%20requests%20allowed.
 
 <hr>
 
