@@ -1,6 +1,7 @@
 # Open Ai
 
 ### Communication with advanced GPT3 model API.
+The OpenAi app is designed to have a similar elegant user interface as ChatGPT, which communicates with advanced GPT3 model APIs. AI can be asked for assistance in JavaScript, React, or any other programming language by providing code and translating it.
 
 ## -> [Live Site](https://open-ai-psi.vercel.app/) <- :computer:
 
