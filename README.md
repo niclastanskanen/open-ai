@@ -173,7 +173,7 @@ repository by using the following steps...
 
 1. This guide assumes you have Node.js and npm installed locally, if this is not the case please install these now.
 1. From the terminal run the command `npm install` to install all project dependencies.
-1. Run the command `npm start` to run the application.
+1. Run the command `npm run dev` to run the application.
 
 <hr>
 
